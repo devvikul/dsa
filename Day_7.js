@@ -1,8 +1,4 @@
-/**
- * @param {number} num
- * @return {string}
- */
-var intToRoman = function(num) {
+const intToRoman = function(num) {
     const roman = [
         [1000, "M"],
         [900, "CM"],
@@ -30,3 +26,5 @@ var intToRoman = function(num) {
 
     return result;
 };
+
+console.log(intToRoman([-1,0,1,2,-1,-4]))
