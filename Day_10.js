@@ -55,4 +55,4 @@ const mergeTwoLists = function(list1, list2) {
     return dummy.next;
 };
 
-console.log([1,2,4], [1,3,4])
+console.log(mergeTwoLists([1,2,4], [1,3,4]))
