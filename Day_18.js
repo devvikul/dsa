@@ -58,4 +58,4 @@ var removeElement = function(nums, val) {
     return k;
 };
 
-console.log(removeElement([0,1,2,2,3,0,4,2]));
+console.log(removeElement([0,1,2,2,3,0,4,2],2));
